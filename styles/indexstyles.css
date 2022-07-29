@@ -1,0 +1,74 @@
+
+body {
+  text-align: center;
+ 
+}
+
+
+.menu,
+table,
+th {
+
+ margin: 0 auto;
+ width: 500px;
+    border: 1px  black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.menu img {
+  width:85px ;
+  height:30px ;
+
+}
+
+.posters {
+  margin-left: 33%;
+
+
+}
+
+footer{
+  margin-top: 10%;
+  
+}
+
+.contacts img{
+  width:85px;
+height:35px;
+}
+
+.menu-words {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  font-size: 20px;
+;
+}
+.hover-animation {
+  position: relative;
+  width:85px ;
+  height:30px ;
+  margin: 10% auto 0;
+  color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  
+}
+.hover-animation img {
+position: absolute;
+width:85px ;
+height:30px ;
+left: 0;
+-webkit-transition: 1s ease-in-out ;
+-moz-transition: 1s ease-in-out  ;
+-ms-transition: 1s ease-in-out;
+-o-transition:1s ease-in-out ;
+transition:1s ease-in-out;
+}
+.hover-animation img.img-front:hover {
+opacity: 0;
+cursor:pointer;
+}
+
+
+
+

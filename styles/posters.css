@@ -1,0 +1,21 @@
+body{
+  text-align: center;
+  background-image: url(pattern.png);
+  
+  
+  }
+  
+  table,
+  td,
+  th {
+   
+   margin-left: 39%;
+      border: 1px  black;
+      border-collapse: collapse;
+      padding: 5px;
+  }
+  
+  footer{
+    margin-top: 10%;
+  
+  }
